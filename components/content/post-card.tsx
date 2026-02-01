@@ -21,8 +21,8 @@ export function PostCard({
     <Link href={`/blog/${slug}`}>
       <Card
         className={cn(
-          "group relative h-full overflow-hidden border-border/60 bg-card transition-all duration-300",
-          "hover:border-primary/40 hover:bg-card hover-lift glow-border",
+          "group relative h-full overflow-hidden border-border/60 bg-card",
+          "hover:border-primary/40 hover-lift glow-border",
           className
         )}
       >
